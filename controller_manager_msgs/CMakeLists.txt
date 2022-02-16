@@ -39,4 +39,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   ADD_LINTER_TESTS
 )
 ament_export_dependencies(rosidl_default_runtime)
+
+install(
+  FILES controller_manager_msgs_mapping_rules.yaml
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()

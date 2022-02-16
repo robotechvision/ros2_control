@@ -1,0 +1,11 @@
+-
+  ros1_package_name: 'controller_manager_msgs'
+  ros2_package_name: 'controller_manager_msgs'
+  
+  ros1_message_name: 'ControllerState'
+  ros2_message_name: 'ControllerState'
+  
+  fields_1_to_2:
+    name: 'name'
+    state: 'state'
+    type: 'type'
