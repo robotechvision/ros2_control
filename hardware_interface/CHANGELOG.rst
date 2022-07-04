@@ -2,6 +2,22 @@
 Changelog for package hardware_interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.1 (2022-05-31)
+------------------
+
+1.5.0 (2022-04-29)
+------------------
+* Require lifecycle-msgs in hardware_interface package (`#675 <https://github.com/ros-controls/ros2_control/issues/675>`_)
+* Contributors: Martin Wudenka
+
+1.4.0 (2022-02-18)
+------------------
+* Extend FakeHardware to support <gpio>-tag (`#574 <https://github.com/ros-controls/ros2_control/issues/574>`_) (`#634 <https://github.com/ros-controls/ros2_control/issues/634>`_)
+* Contributors: Subhas Das
+
+1.3.0 (2021-12-21)
+------------------
+
 1.2.0 (2021-11-05)
 ------------------
 * Import and Initialize components (`#566 <https://github.com/ros-controls/ros2_control/issues/566>`_)

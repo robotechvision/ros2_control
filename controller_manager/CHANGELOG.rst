@@ -2,6 +2,27 @@
 Changelog for package controller_manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.1 (2022-05-31)
+------------------
+
+1.5.0 (2022-04-29)
+------------------
+* Spawner waits for services (`#683 <https://github.com/ros-controls/ros2_control/issues/683>`_) (`#697 <https://github.com/ros-controls/ros2_control/issues/697>`_)
+* Contributors: Tyler Weaver
+
+1.4.0 (2022-02-18)
+------------------
+* added a fixed control period to loop (`#647 <https://github.com/ros-controls/ros2_control/issues/647>`_) (`#650 <https://github.com/ros-controls/ros2_control/issues/650>`_)
+* Contributors: Jack Center
+
+1.3.0 (2021-12-21)
+------------------
+* fix get_update_rate visibility in windows (`#586 <https://github.com/ros-controls/ros2_control/issues/586>`_) (`#588 <https://github.com/ros-controls/ros2_control/issues/588>`_)
+  (cherry picked from commit 3f4a55bd898d5ae16fbefb6b19822dce0dbeba2a)
+  Co-authored-by: Melvin Wang <melvin.mc.wang@gmail.com>
+* Make output of not available controller nicer and make it informational. (`#577 <https://github.com/ros-controls/ros2_control/issues/577>`_)
+* Contributors: Denis Štogl, mergify[bot]
+
 1.2.0 (2021-11-05)
 ------------------
 
